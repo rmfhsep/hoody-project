@@ -1,0 +1,25 @@
+{
+  "name": "hoody-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://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@github.com/rmfhsep/hoody-project.git",
+  "author": "thewoowon <thewoowon@naver.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "cd server && nodemon server",
+    "hoodie": "cd hoodie && yarn start",
+    "start": "concurrently --kill-others-on-fail \"yarn server\" \"yarn hoodie\"" 
+  },
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "concurrently": "^7.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.17.0",
+    "sequelize-cli": "^6.4.1"
+  }
+}
