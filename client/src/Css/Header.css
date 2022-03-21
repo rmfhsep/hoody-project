@@ -1,0 +1,93 @@
+.header-master {
+  width: 100vw;
+  height: 70px;
+  border-bottom: 1px solid rgba(245, 245, 245, 0.5);
+  position: fixed;
+  z-index: 3;
+  opacity: 0.9;
+  background-color: black;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.header-wrap {
+  width: 80%;
+  height: 100%;
+  display: flex;
+}
+.header-logo {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.header-logo-image {
+  width: 126px;
+  height: 39px;
+  background-image: url("../Asset/Hoodie.png");
+}
+.header-util {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header-switch-body-color {
+  background-image: url("../Asset/moon.png");
+  width: 36px;
+  height: 36px;
+  margin: 5px;
+}
+.header-scope {
+  background-image: url("../Asset/Magnifier.png");
+  width: 48px;
+  height: 48px;
+  margin: 5px;
+}
+.header-new-script {
+  width: 95px;
+  height: 30px;
+  border: 1px solid rgba(256, 256, 256, 1);
+  border-radius: 30px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+.header-new-script-p {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(256, 256, 256, 1);
+}
+.header-my-info {
+  display: flex;
+  width: 100px;
+}
+.header-my-info-image {
+  width: 70px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header-my-info-image-div {
+  background-image: url("../Asset/Info.png");
+  background-color: white;
+  border-radius: 30px;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+}
+.header-my-info-chevron {
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-my-info-chevron-div {
+  width: 12px;
+  height: 7px;
+  background-image: url("../Asset/chevron.png");
+}
