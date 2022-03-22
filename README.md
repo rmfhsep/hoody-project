@@ -12,3 +12,33 @@ Hoodie에서 나에 의한, 나만을 위한 글을 작성해보자
 
 
 ### Hello Guys!!
+
+### 반드시 config/config.json
+    계정설정하기
+    password만 설정하기
+    DB명은 hoodie로 고정
+
+### Sequelize로 DB 생성하기
+    cd server
+    -> 서버 폴더로 이동 후 
+    npx sequelize db:create
+
+### 모델 생성하기
+    cd server
+    -> 서버 폴더로 이동 후
+    그대로 복사해서  터미널 붙여넣기
+
+
+    npx sequelize model:generate --name user --attributes user_id:string,user_pw:string,wdate:date,name:string,email:string,sex:string,birth:string,role:integer
+
+    npx sequelize model:generate --name notice --attributes wdate:date,content:string,title:string
+
+    npx sequelize model:generate --name comment --attributes comment:string,wdate:date
+
+    생성 시작
+
+     npx sequelize db:migrate
+
+    이제 관계 설정 
+
+    
