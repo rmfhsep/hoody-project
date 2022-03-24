@@ -52,3 +52,5 @@ Hoodie에서 나에 의한, 나만을 위한 글을 작성해보자
 3. 세부정보작성
 
 `ex) [client] fix:add login page`
+
+### tech stacks 
